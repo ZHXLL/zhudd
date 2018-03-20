@@ -1,0 +1,14 @@
+.footer{
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    .footer-inner{
+        p{
+            padding-bottom: 10px;
+            .phone{
+                background:url(../images/phone-icon.png) no-repeat scroll -160px -84px;
+                padding: 4px 0 2px 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.threebox{
+    width: 100%;
+    .h4{
+        font-size: 26px;
+        color: #333333;
+        text-align: center;
+        font-weight: normal;
+        padding: 60px 0 10px;
+    }
+    .h5{
+        text-align: center;
+        font-weight: normal;
+        font-size: 16px;
+        color: #cccccc;
+        padding-bottom: 50px;
+    }
+    .ul{
+        width: 1200px;
+        height: 400px;
+        margin: 0 auto;
+        padding: 0;
+        li{
+            width: 260px;
+            float: left;
+            display: inline;
+            margin: 0 20px 10px;
+            text-align: center;
+            .libix{
+                background-color: #f3f4f6;
+                padding: 45px 0 60px 0;
+            }
+        }
+    }
+}
