@@ -2,11 +2,14 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px;
     background: #fff;
+    height: 60px;
     overflow: hidden;
     border-bottom: 1px solid #e95456;
     z-index: 5;
+    &.a1{
+        height: 120px;
+    }
     .h_box{
         width: 1200px;
         height: 60px;
@@ -41,7 +44,14 @@
             }
         }
     }
-    
+    .btn{
+        width: 25px;
+        height: 18px;
+        position: absolute;
+        right: 20px;
+        top: 22px;
+        display: none;
+    }
 }
 
 
@@ -50,24 +60,52 @@
     #h_box{
         width: 1200px;
     }
+    .header{
+        &.a1{
+            height: 60px;
+        }
+    }
 }
 @media (min-width: 900px) and (max-width: 1199px){
     #h_box{
         width: 100%;
+        img{
+            display: inline-block;
+        }
         .h_boxr{
-//          float: left;
+           
+        }
+    }
+    .header{
+        &.a1{
+            height: 60px;
         }
     }
 }
 @media screen and (max-width: 899px){
+        
     #h_box{
         width: 100%;
+        height: 60px;
         .h_boxr{
-            width: 430px;
+              width:90%;
+              margin:2px 5%;
+              overflow-y:hidden;
             .h_boxra{
-                margin-right: 5px;
-                padding:0 5px;
+                margin-right: 5%;
+                padding:0 1%;
+                &.a1{
+                    border-top-color:#fff;
+                    color:#333;
+                }
+                &:hover{
+                    border-top-color:#fff;
+                    color:#333;
+                }
             }
         }
+    }
+    #btn{
+        display: block;
     }
 }

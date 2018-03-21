@@ -1,10 +1,10 @@
-
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/header.scss';
-
 import logo from '../images/logo.png';
+import btn from '../images/new-index-menu.png';
 
+var kai=true;
 
 let right=[
 	  		{txt1:'首 页',path:"/"},
@@ -16,6 +16,16 @@ let right=[
   		]
 
 class Header extends React.Component {
+	btn(){
+		var header=document.querySelector('.header');
+		if(kai){
+			kai=!kai
+			header.className='header a1';
+		}else{
+			kai=!kai
+			header.className='header';
+		}
+	}
   render() {
     return (
       <div className="header" >
@@ -32,6 +42,9 @@ class Header extends React.Component {
        				})
        			}
        		</div>
+       	</div>
+       	<div className='btn' id='btn' onClick={()=>{this.btn()}}>	
+       		<img src={btn} alt="" />
        	</div>
       </div>
     );

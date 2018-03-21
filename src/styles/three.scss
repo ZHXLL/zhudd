@@ -216,6 +216,7 @@
 @media screen and (min-width: 1200px){      
    
 }
+
 @media (min-width: 700px) and (max-width: 1199px){
     #ul{
       width: 100%;
@@ -232,6 +233,14 @@
     }
     #imgbox{
         width: 100%;
+        ul{
+            width: 90%;
+            margin: 0 auto;
+            float: none;
+            li{
+               margin: 0 0 2% 4%;
+            }
+        }
     }
     #buttxt{
         width: 100%;
