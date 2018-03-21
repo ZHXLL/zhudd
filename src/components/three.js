@@ -19,6 +19,8 @@ import p11 from '../images/partner11.jpg';
 import p12 from '../images/partner12.jpg';
 
 import img1 from '../images/zhudd-code.png';
+var a=1;
+
 
 let picture=[p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12]
 
