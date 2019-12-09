@@ -39,6 +39,7 @@ class Carousel extends React.Component {
 	componentWillUnmount() {
 		clearInterval(this.state.itm)
 		console.log(1);
+		console.log(2);
 	}
 	render() {
 		return (
