@@ -40,6 +40,7 @@ class Carousel extends React.Component {
 		clearInterval(this.state.itm)
 		console.log(1);
 		console.log(2);
+		console.log(3);
 	}
 	render() {
 		return (
