@@ -12,7 +12,7 @@ import img5 from '../images/recruitLandlord_banner.jpg'
 
 
 var image = [img1, img2, img3, img4, img5]
-
+ 
 
 class Carousel extends React.Component {
 	constructor(props) {
@@ -38,6 +38,7 @@ class Carousel extends React.Component {
 	}
 	componentWillUnmount() {
 		clearInterval(this.state.itm)
+		console.log(1);
 	}
 	render() {
 		return (
